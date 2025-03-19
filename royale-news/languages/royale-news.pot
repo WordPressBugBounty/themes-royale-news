@@ -2,16 +2,16 @@
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Royale News 2.2.2\n"
+"Project-Id-Version: Royale News 2.2.3\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/royale-news\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-04-26T05:33:40+00:00\n"
+"POT-Creation-Date: 2024-12-27T08:35:14+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"X-Generator: WP-CLI 2.10.0\n"
+"X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: royale-news\n"
 
 #. Theme Name of the theme
@@ -49,6 +49,29 @@ msgstr ""
 
 #: 404.php:33
 msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr ""
+
+#. translators: %s: current user's display name
+#: admin/welcome-notice/class-royale-news-theme-welcome-notice.php:137
+msgid "Hello, %s"
+msgstr ""
+
+#. translators: %s: theme name
+#: admin/welcome-notice/class-royale-news-theme-welcome-notice.php:146
+msgid "Welcome to %s"
+msgstr ""
+
+#. translators: 1: theme name
+#: admin/welcome-notice/class-royale-news-theme-welcome-notice.php:155
+msgid "Thank you for choosing %1$s! To get started with %1$s and import starter templates, install Themebeez Toolkit plugin by clicking on the button below! We hope you enjoy using %1$s."
+msgstr ""
+
+#: admin/welcome-notice/class-royale-news-theme-welcome-notice.php:165
+msgid "Get Started"
+msgstr ""
+
+#: admin/welcome-notice/class-royale-news-theme-welcome-notice.php:175
+msgid "Notice Image"
 msgstr ""
 
 #. translators: 1: title.
@@ -166,6 +189,35 @@ msgstr ""
 #: inc/template-tags.php:122
 #: template-parts/content-page.php:63
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: inc/udp/class-udp-agent.php:116
+msgid "Allow Anonymous Tracking"
+msgstr ""
+
+#: inc/udp/class-udp-agent.php:158
+msgid "Become a super contributor by sharing your non-sensitive WordPress data. We guarantee no sensitive data is collected."
+msgstr ""
+
+#: inc/udp/class-udp-agent.php:159
+msgid " What data do we collect?"
+msgstr ""
+
+#. translators: %s: agent name
+#: inc/udp/init.php:99
+msgid "%s is asking to allow tracking your non-sensitive WordPress data?"
+msgstr ""
+
+#: inc/udp/init.php:105
+msgid "Allow"
+msgstr ""
+
+#: inc/udp/init.php:107
+msgid "Do not show again"
+msgstr ""
+
+#: inc/udp/init.php:109
+msgid "Later"
 msgstr ""
 
 #. translators: %s: search query.
@@ -347,120 +399,124 @@ msgid "Copyright Text"
 msgstr ""
 
 #: themebeez/customizer/options.php:240
-msgid "Insert copyright text"
-msgstr ""
-
-#: themebeez/customizer/options.php:252
-msgid "Scroll Top Button Option"
+msgid "You can use {copy}, {year}, {site_title}, and {theme_author} placeholders to display copyright icon, current year, site title,and theme author respectively in the copyright text."
 msgstr ""
 
 #: themebeez/customizer/options.php:253
+msgid "Scroll Top Button Option"
+msgstr ""
+
+#: themebeez/customizer/options.php:254
 msgid "Configure Scroll Top Button"
 msgstr ""
 
-#: themebeez/customizer/options.php:271
+#: themebeez/customizer/options.php:272
 msgid "Show Scroll Top Button"
 msgstr ""
 
-#: themebeez/customizer/options.php:288
+#: themebeez/customizer/options.php:289
 msgid "Breadcrumb Option"
 msgstr ""
 
-#: themebeez/customizer/options.php:289
+#: themebeez/customizer/options.php:290
 msgid "Configure Breadcrumb"
 msgstr ""
 
-#: themebeez/customizer/options.php:307
+#: themebeez/customizer/options.php:308
 msgid "Show Breadcrumb"
 msgstr ""
 
-#: themebeez/customizer/options.php:325
+#: themebeez/customizer/options.php:326
 msgid "Blog Page Option"
 msgstr ""
 
-#: themebeez/customizer/options.php:326
+#: themebeez/customizer/options.php:327
 msgid "Configure Blog page"
 msgstr ""
 
-#: themebeez/customizer/options.php:344
+#: themebeez/customizer/options.php:345
 msgid "Show Featured Posts"
 msgstr ""
 
-#: themebeez/customizer/options.php:362
+#: themebeez/customizer/options.php:363
 msgid "Post Single Options"
 msgstr ""
 
-#: themebeez/customizer/options.php:363
+#: themebeez/customizer/options.php:364
 msgid "Configure post single"
 msgstr ""
 
-#: themebeez/customizer/options.php:379
-#: themebeez/customizer/options.php:412
+#: themebeez/customizer/options.php:380
+#: themebeez/customizer/options.php:413
 msgid "Display Featured Image"
 msgstr ""
 
-#: themebeez/customizer/options.php:395
+#: themebeez/customizer/options.php:396
 msgid "Page Single Options"
 msgstr ""
 
-#: themebeez/customizer/options.php:396
+#: themebeez/customizer/options.php:397
 msgid "Configure page single"
 msgstr ""
 
-#: themebeez/customizer/options.php:429
+#: themebeez/customizer/options.php:430
 msgid "Sidebar Option"
 msgstr ""
 
-#: themebeez/customizer/options.php:430
+#: themebeez/customizer/options.php:431
 msgid "Configure Sidebar Position"
 msgstr ""
 
-#: themebeez/customizer/options.php:446
+#: themebeez/customizer/options.php:447
 msgid "Sidebar Position"
 msgstr ""
 
-#: themebeez/customizer/options.php:447
+#: themebeez/customizer/options.php:448
 msgid "Select Sidebar Postion. Select none to hide sidebar."
 msgstr ""
 
-#: themebeez/customizer/options.php:465
+#: themebeez/customizer/options.php:466
 msgid "Post Meta Options"
 msgstr ""
 
-#: themebeez/customizer/options.php:482
+#: themebeez/customizer/options.php:483
 msgid "Enable Post Date"
 msgstr ""
 
-#: themebeez/customizer/options.php:500
+#: themebeez/customizer/options.php:501
 msgid "Enable Author Name"
 msgstr ""
 
-#: themebeez/customizer/options.php:518
+#: themebeez/customizer/options.php:519
 msgid "Enable Comments Number"
 msgstr ""
 
-#: themebeez/customizer/options.php:536
+#: themebeez/customizer/options.php:537
 msgid "Enable Categories"
 msgstr ""
 
-#: themebeez/customizer/options.php:552
+#: themebeez/customizer/options.php:553
 msgid "Excerpt"
 msgstr ""
 
-#: themebeez/customizer/options.php:568
+#: themebeez/customizer/options.php:569
 msgid "Excerpt Length"
 msgstr ""
 
-#: themebeez/customizer/options.php:586
+#: themebeez/customizer/options.php:587
 msgid "Typography"
 msgstr ""
 
-#: themebeez/customizer/options.php:604
+#: themebeez/customizer/options.php:605
 msgid "Body Font"
 msgstr ""
 
-#: themebeez/customizer/options.php:623
+#: themebeez/customizer/options.php:624
 msgid "Headings Font"
+msgstr ""
+
+#: themebeez/defaults.php:63
+msgid "Copyright {copy} {year} {site_title}. All rights reserved."
 msgstr ""
 
 #: themebeez/filters.php:18
@@ -525,16 +581,6 @@ msgstr ""
 
 #: themebeez/hooks.php:591
 msgid "&raquo;"
-msgstr ""
-
-#. translators: 1: copyright text, 2: theme name, 3: theme URL
-#: themebeez/hooks.php:690
-msgid "%1$s %2$s by %3$s"
-msgstr ""
-
-#. translators: 1: theme name, 2: theme URL
-#: themebeez/hooks.php:703
-msgid "%1$s by %2$s"
 msgstr ""
 
 #: themebeez/third-party/breadcrumbs.php:260
